@@ -57,10 +57,37 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+```
+package oddfin;
 
+public class oddfin1 {
+    public static void main(String[] args) {
+        int[] numbers = {12, 45, 23, 56, 89, 34, 67, 90, 11, 22}; // Example array
+
+        System.out.print("Even Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 == 0) {
+                System.out.print(num + " ");
+            }
+        }
+
+        System.out.println(); // For a new line
+
+        System.out.print("Odd Numbers: ");
+        for (int num : numbers) {
+            if (num % 2 != 0) {
+                System.out.print(num + " ");
+            }
+        }
+    }
+}
+```
 ## OUTPUT:
+<img width="1071" height="806" alt="Screenshot 2025-09-02 154708" src="https://github.com/user-attachments/assets/c1c9a7b8-e1ea-43e6-86e6-50837bd38afc" />
 
 
 
 
 ## RESULT:
+
+Thus, the odd and even numbers using java program is developed, and the output is verified.
